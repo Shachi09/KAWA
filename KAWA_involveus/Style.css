@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+*body{
+    background-color: black;
+}
+
+
+
+
+.navbar .navbar-brand{
+    font-family: 'Poppins', sans-serif;
+/* border: 2px solid chartreuse; */
+padding: 0;
+}
+
+.navbar{
+    /* border: 2px solid chartreuse; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    padding: 0;   
+   
+}
+
+
+#navbarResponsive > ul > li:nth-child(5) > a {
+  position: relative;
+  display: inline-block;
+  }
+
+
+/* Dropdown CONTACT US WALA */
+.dropbtn {
+  background-color: transparent;
+  color: inherit;
+  padding: 8px;
+  font-size: inherit;
+  border: none;
+  color: white;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  border: 1.5px rgba(130, 130, 130, 0.308) solid;
+  background-color: rgba(90, 88, 88, 0.812);
+  padding-inline: 3px ;
+  font: white;
+  display: none;
+  position: absolute;
+  opacity: 0.5;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  border-bottom: 1.5px rgba(130, 130, 130, 0.308) solid;
+  font-family: inherit;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar-dark .navbar-toggler {
+  border:2px solid grey !important; 
+}
+
+.dropdown-content a:hover 
+{background-color: rgb(184, 184, 184);
+color:black;
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important ;
+
+  
+}
+
+/* .navbar-expand-lg .navbar-collapse{
+  background-color: black !important
+} */
+
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("assests/white-paw-print-transparent-background.png")!important;
+
+  
+}
+
+
+
+.dropdown:hover .dropdown-content
+{display: block;
+    background-color: black;
+    opacity: 1;
+    
+    }
+
+
+   
+/* Dropdown CONTACT US WALA */
+
+.nav-item :hover{
+  /* color: white!important; */
+  opacity: 1;
+  text-decoration:solid;
+  }
+
+ /* NAVBAR SCROOL BG DARK */
+.navbar-scrolled{
+background-color: black;
+box-shadow: 0 3px 10px rgba(0,0,0,0.2)(0, 0, 0, 1.15);
+}
+
+.navbar{
+  transition: all 0.8s;
+}
+
+ /* NAVBAR SCROOL BG DARK */
+
+
+ /* INVOLVE US STARTS */
+
+.involveUs{
+    margin-top: 5rem;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.side-img{
+    /* border: 1px red solid; */
+    height: 60vh;
+    width: 30vw;
+    margin: 1.3rem;
+}
+
+.side-img2{
+  /* border: 1px red solid; */
+  height: 80vh;
+  width: 31.5vw;
+  margin-right: 0rem;
+  margin-top: 3rem;
+}
+
+
+.sponsor-para{
+    /* border: red solid 1px; */
+    line-height: 2.5rem;
+    margin-top: 2.5rem;
+    padding: 2rem;
+    
+}
+
+
+
+
+/* INVOLVE US ENDS  */
+
+
+
+.background .image-fluid{
+    width: 100%;
+    height: auto;
+
+}
+
+.img-fluid{
+    z-index: inherit;
+    background-color: black;
+    /* width: 100%; */
+  }
+  body > div.footerimg{
+    background-color: black;
+  }
+
+.age-validation{
+  /* border: 1px solid red; */
+}
+
+
+/* Footer Image  */
+.footer_img {
+    height: 34vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body>footer.bg-dark.text-white.justify-content-between>section>div>a {
+  z-index: 3;
+
+}
+/* footer image */
